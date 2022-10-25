@@ -1,5 +1,19 @@
 {
   "User": {
-    "title": { "string": {} }
+    "title": { "string": {} },
+    "author": { "string": {} },
+    "tags": { "string": [
+      "Design tools",
+      "Tutorial"
+    ]},
+    "body": {
+      "loremParagraphs": { "minLength": 200, "maxLength": 500 }
+    },
+    "createdAt: {
+      "dateTime": {
+        "min": "2022-07-02T00:00:00Z",
+        "max": "2020-11-31T23:59:59Z"
+      }
+    }
   }
 }
